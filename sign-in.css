@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    
+}
+.header .note{
+    color: black;
+}
+.header .it{
+    color:  #0ac095;
+}
+.header .exclamation {
+    font-size: 1.2em
+}
+
+header h1{
+    font-size: 40px;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #fff; 
+    color: rgb(20, 140, 220);
+    text-decoration: underline; 
+}
+
+
+.home{
+    height: 100vh;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    min-height: 100vh;
+}
+
+.login{
+    width: 450px;
+    background : transparent;
+    color: black;
+    padding: 30px 40px;
+
+}
+.login .note{
+    color: black;
+}
+.login .it{
+   color:  #0ac095;
+}
+.login .exclamation {
+    font-size: 1.2em
+}
+.login h1{
+    font-size: 55px;
+    text-align: center;
+}
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+   
+}
+.login-page label{
+    margin-bottom: 10px;
+    margin-right: 287px;
+    font-size: 1rem;
+    color: rgb(122, 118, 118);
+}
+.login-page input{
+   
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(122, 118, 118);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+.remember-forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.remember-me label{
+    margin-right: auto;
+    white-space: nowrap;
+}
+.remember-forgot input[type="checkbox"]{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+
+}
+.remember-forgot a{
+    font-size: 1rem;
+    margin-top: -4%;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 33%;
+    text-decoration: underline;
+}
+.login .btn{
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #0ac095;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login .Register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.Register-link p a:hover{
+    text-decoration: underline;
+}
+    
